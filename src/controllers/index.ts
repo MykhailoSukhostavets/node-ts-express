@@ -3,6 +3,7 @@ import type PointInterface from 'src/interfaces/point.interface';
 import type SunriseSunsetResponse from 'src/interfaces/sunriseSunset.interface';
 
 // Type guard to check response is valid
+// "any" here used as common practice in type guards
 function isSunriseSunsetResponse(
   response: any
 ): response is SunriseSunsetResponse {

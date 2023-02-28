@@ -49,6 +49,7 @@ None
 
 - Add unit tests
 - Add github actions for tests
+- Add Swagger documentation
 - Add .env file, at least for PORT
 - Add a logger middleware
 - Add authentication support (JWT)

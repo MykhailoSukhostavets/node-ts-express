@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["es2020"],
+    "module": "ES2020",
+    "esModuleInterop": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "target": "ES2021",
+    "baseUrl": "./"
+  },
+  "compileOnSave": true,
+  "include": ["src/**/*"]
+}
